@@ -23,8 +23,7 @@ h1{
     background-color: rgb(228, 141, 79);
     color: black;
     border-radius:8px ;
-    transition: background-color .5s ease-in-out;
-    transition: color .3s ease-in-out;
+    transition:  1s ease-in-out;
 }
 #add:hover{
     color: white;
