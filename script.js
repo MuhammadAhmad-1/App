@@ -1,4 +1,4 @@
-const imputbox = document.getElementById("input");
+const inputbox = document.getElementById("input");
 const tasks = document.getElementById("ul");
 
 function addTask(){
@@ -7,7 +7,7 @@ function addTask(){
     }
     else{
         let li =document.createElement("li");
-        li.innerHtml = imputbox.value;
+        li.innerHtml = inputbox.value;
         tasks.appendChild(li);
     }
 }
